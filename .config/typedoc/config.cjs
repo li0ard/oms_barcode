@@ -13,7 +13,7 @@ module.exports = {
         '**/*.test.ts',
     ],
     externalPattern: ['**/dist/**'],
-    name: 'tinytlv',
+    name: 'oms_barcode',
     out: '../../docs',
     entryPoints: fs.readdirSync(path.join(__dirname, '../../src')).map(it => `../../src/${it}`),
     entryPointStrategy: "expand"
